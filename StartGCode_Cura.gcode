@@ -1,4 +1,5 @@
 ; Ender 3 Custom Start G-code
+M420 S1 ; Enable Bed Leveling
 G92 E0 ; Reset Extruder
 G28 ; Home all axes
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
